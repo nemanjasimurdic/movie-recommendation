@@ -163,7 +163,7 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Frozen II</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Chris Buck & Jennifer Lee</hasDirector>
+        <hasDirector rdf:datatype="xsd:string">Chris Buck and Jennifer Lee</hasDirector>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="#Coco">
         <rdf:type rdf:resource="#Film"/>
@@ -199,7 +199,7 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Everything Everywhere All At Once</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Daniel Kwan & Daniel Scheinert</hasDirector>
+        <hasDirector rdf:datatype="xsd:string">Daniel Kwan and Daniel Scheinert</hasDirector>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="#TopGunMaverick">
         <rdf:type rdf:resource="#Film"/>
@@ -325,7 +325,7 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">The Super Mario Movie</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Aaron Horvath & Michael Jelenic</hasDirector>
+        <hasDirector rdf:datatype="xsd:string">Aaron Horvath and Michael Jelenic</hasDirector>
     </owl:NamedIndividual>
     <owl:NamedIndividual rdf:about="#KillersOfTheFlowerMoon">
         <rdf:type rdf:resource="#Film"/>
