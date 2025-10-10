@@ -1,0 +1,485 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.example.org/movies#"
+     xml:base="http://www.example.org/movies"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+    <owl:Ontology rdf:about="http://www.example.org/movies"/>
+
+    <!-- Film Instances -->
+    <owl:NamedIndividual rdf:about="#Inception">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Inception</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Christopher Nolan</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Interstellar">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Interstellar</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Christopher Nolan</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheGodfather">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Godfather</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Crime</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Francis Ford Coppola</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#PulpFiction">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Pulp Fiction</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Crime</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Quentin Tarantino</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheShining">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Shining</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Stanley Kubrick</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#GetOut">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Get Out</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Jordan Peele</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Parasite">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Parasite</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Bong Joon-ho</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Joker">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Joker</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Todd Phillips</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#LaLaLand">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">La La Land</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Romance</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Damien Chazelle</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheDarkKnight">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Dark Knight</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Christopher Nolan</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#AvengersEndgame">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Avengers: Endgame</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Anthony and Joe Russo</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Titanic">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Titanic</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Romance</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">James Cameron</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#ForrestGump">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Forrest Gump</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Robert Zemeckis</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#MadMaxFuryRoad">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Mad Max: Fury Road</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">George Miller</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheMatrix">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Matrix</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Lana and Lilly Wachowski</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#DjangoUnchained">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Django Unchained</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Western</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Quentin Tarantino</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Whiplash">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Whiplash</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Damien Chazelle</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#AQuietPlace">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">A Quiet Place</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">John Krasinski</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#BladeRunner2049">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Blade Runner 2049</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Denis Villeneuve</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheSocialNetwork">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Social Network</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">David Fincher</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#It">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">It</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Andy Muschietti</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#BlackPanther">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Black Panther</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Ryan Coogler</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheIrishman">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Irishman</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Crime</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Martin Scorsese</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#KnivesOut">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Knives Out</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Rian Johnson</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#JumanjiWelcomeToTheJungle">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Jumanji: Welcome to the Jungle</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Adventure</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Jake Kasdan</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#FrozenII">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Frozen II</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Chris Buck & Jennifer Lee</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Coco">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Coco</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Lee Unkrich</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Tenet">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Tenet</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Christopher Nolan</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheWolfOfWallStreet">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Wolf of Wall Street</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Martin Scorsese</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#AvatarTheWayOfWater">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Avatar: The Way of Water</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">James Cameron</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheBatman">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Batman</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Matt Reeves</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#EverythingEverywhereAllAtOnce">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Everything Everywhere All At Once</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Daniel Kwan & Daniel Scheinert</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TopGunMaverick">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Top Gun: Maverick</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Joseph Kosinski</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#KnockAtTheCabin">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Knock at the Cabin</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">M. Night Shyamalan</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Oppenheimer">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Oppenheimer</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Christopher Nolan</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Barbie">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Barbie</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Greta Gerwig</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#GuardiansOfTheGalaxyVol3">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Guardians of the Galaxy Vol. 3</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">James Gunn</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#SpiderManNoWayHome">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Spider-Man: No Way Home</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Jon Watts</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheFabelmans">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Fabelmans</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Steven Spielberg</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Nope">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Nope</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Jordan Peele</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheMarvels">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Marvels</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Nia DaCosta</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#DunePartTwo">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Dune: Part Two</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Denis Villeneuve</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheLittleMermaid">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Little Mermaid</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Fantasy</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Rob Marshall</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Barbie">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Barbie</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Greta Gerwig</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#CreedIII">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Creed III</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Michael B. Jordan</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Wonka">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Wonka</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Adventure</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Paul King</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#HauntedMansion">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Haunted Mansion</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Justin Simien</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#FastX">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Fast X</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Louis Leterrier</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#GuardiansOfTheGalaxyVol3">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Guardians of the Galaxy Vol. 3</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">James Gunn</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Elemental">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Elemental</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Peter Sohn</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#SpiderManAcrossTheSpiderVerse">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Spider-Man: Across the Spider-Verse</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Joaquim Dos Santos, Kemp Powers, Justin K. Thompson</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#PussInBootsTheLastWish">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Puss in Boots: The Last Wish</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Joel Crawford</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheSuperMarioMovie">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Super Mario Movie</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Aaron Horvath & Michael Jelenic</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#KillersOfTheFlowerMoon">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Killers of the Flower Moon</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Crime</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Martin Scorsese</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheHoldovers">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Holdovers</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Alexander Payne</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Napoleon">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Napoleon</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Ridley Scott</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Barbarian">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Barbarian</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Zach Cregger</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheZoneOfInterest">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Zone of Interest</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Jonathan Glazer</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Sharper">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Sharper</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Benjamin Caron</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheNightHouse">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Night House</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">David Bruckner</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#KnockAtTheCabin">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Knock at the Cabin</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">M. Night Shyamalan</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheMenu">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Menu</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Mark Mylod</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Air">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Air</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Ben Affleck</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Sharper">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Sharper</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Benjamin Caron</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Memory">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Memory</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Martin Campbell</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#BeauIsAfraid">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Beau Is Afraid</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Ari Aster</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#ThePuzzle">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Puzzle</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Patricia Highsmith</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheEqualizer3">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Equalizer 3</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Antoine Fuqua</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheWager">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Wager</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Peter Markle</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Sleep">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Sleep</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Jason Yu</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#InTheSameBoat">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">In the Same Boat</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Stuart Acher</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#NightmareAlley">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Nightmare Alley</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Guillermo del Toro</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Sharper">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Sharper</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Benjamin Caron</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#AllTheBeautyAndTheBloodshed">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">All the Beauty and the Bloodshed</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Laura Poitras</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheGoodNurse">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Good Nurse</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Tobias Lindholm</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#Sharper">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Sharper</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Benjamin Caron</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#TheBansheesOfInisherin">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Banshees of Inisherin</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Martin McDonagh</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#SheWill">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">She Will</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Charlotte Colbert</hasDirector>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="#AllTheOldKnives">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">All the Old Knives</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasDirector rdf:datatype="xsd:string">Janus Metz</hasDirector>
+    </owl:NamedIndividual>
