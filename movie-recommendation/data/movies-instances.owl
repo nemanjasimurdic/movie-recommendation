@@ -483,3 +483,5 @@
         <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
         <hasDirector rdf:datatype="xsd:string">Janus Metz</hasDirector>
     </owl:NamedIndividual>
+
+</rdf:RDF>
