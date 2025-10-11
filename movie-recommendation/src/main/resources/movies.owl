@@ -56,9 +56,6 @@
     <owl:Class rdf:about="http://www.example.org/movies#Category"/>
     <owl:Class rdf:about="http://www.example.org/movies#AwardWinner"/>
     <owl:Class rdf:about="http://www.example.org/movies#Theme"/>
-    <owl:Class rdf:about="http://www.example.org/movies#VisualRating"/>
-    <owl:Class rdf:about="http://www.example.org/movies#StoryRating"/>
-    <owl:Class rdf:about="http://www.example.org/movies#CultureRating"/>
 
     <!-- Object Properties -->
     <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasTitle"/>
@@ -84,4 +81,9 @@
     <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasTrailer"/>
     <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasPoster"/>
     <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasDescription"/>
+    <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasDirectorRating"/>
+    <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasActorsRating"/>
+    <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasStoryRating"/>
+    <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasVisualRating"/>
+    <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasCultureRating"/>
 </rdf:RDF>
