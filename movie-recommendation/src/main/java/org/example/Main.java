@@ -130,8 +130,8 @@ public class Main {
         double visualRating = getDoubleProperty(selectedMovie, model.getProperty("http://www.example.org/movies#hasVisualRating"));
         double cultureRating = getDoubleProperty(selectedMovie, model.getProperty("http://www.example.org/movies#hasCultureRating"));
 
-        fis.setVariable("Director", directorRating);
-        fis.setVariable("Actors", actorsRating);
+        fis.setVariable("DirectorRating", directorRating);
+        fis.setVariable("ActorsRating", actorsRating);
         fis.setVariable("StoryRating", storyRating);
         fis.setVariable("VisualRating", visualRating);
         fis.setVariable("CultureRating", cultureRating);
