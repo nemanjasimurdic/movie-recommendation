@@ -1,8 +1,8 @@
 FUNCTION_BLOCK film_quality
 
 VAR_INPUT
-    Director : REAL;
-    Actors : REAL;
+    DirectorRating : REAL;
+    ActorsRating : REAL;
     StoryRating : REAL;
     VisualRating : REAL;
     CultureRating : REAL;
@@ -13,13 +13,13 @@ VAR_OUTPUT
 END_VAR
 
 // Fuzzify input variables
-FUZZIFY Director
+FUZZIFY DirectorRating
     TERM poor := (0, 1) (3, 0);
     TERM good := (2, 0) (5, 1) (8, 0);
     TERM excellent := (6, 0) (10, 1);
 END_FUZZIFY
 
-FUZZIFY Actors
+FUZZIFY ActorsRating
     TERM weak := (0, 1) (3, 0);
     TERM decent := (2, 0) (5, 1) (8, 0);
     TERM strong := (6, 0) (10, 1);
@@ -58,16 +58,16 @@ RULEBLOCK MovieRules
     ACT : MIN;
     ACCU : MAX;
 
-    RULE 1 : IF Director IS poor OR StoryRating IS boring THEN FilmQuality IS bad;
-    RULE 2 : IF Director IS good AND StoryRating IS interesting THEN FilmQuality IS good;
-    RULE 3 : IF Director IS excellent AND StoryRating IS brilliant THEN FilmQuality IS excellent;
-    RULE 4 : IF Actors IS weak THEN FilmQuality IS bad;
-    RULE 5 : IF Actors IS strong AND StoryRating IS interesting THEN FilmQuality IS good;
+    RULE 1 : IF DirectorRating IS poor OR StoryRating IS boring THEN FilmQuality IS bad;
+    RULE 2 : IF DirectorRating IS good AND StoryRating IS interesting THEN FilmQuality IS good;
+    RULE 3 : IF DirectorRating IS excellent AND StoryRating IS brilliant THEN FilmQuality IS excellent;
+    RULE 4 : IF ActorsRating IS weak THEN FilmQuality IS bad;
+    RULE 5 : IF ActorsRating IS strong AND StoryRating IS interesting THEN FilmQuality IS good;
     RULE 6 : IF VisualRating IS poor THEN FilmQuality IS bad;
     RULE 7 : IF VisualRating IS stunning THEN FilmQuality IS excellent;
     RULE 8 : IF CultureRating IS high AND StoryRating IS brilliant THEN FilmQuality IS excellent;
-    RULE 9 : IF CultureRating IS low AND Director IS poor THEN FilmQuality IS bad;
-    RULE 10 : IF Director IS good AND Actors IS decent AND VisualRating IS average THEN FilmQuality IS good;
+    RULE 9 : IF CultureRating IS low AND DirectorRating IS poor THEN FilmQuality IS bad;
+    RULE 10 : IF DirectorRating IS good AND ActorsRating IS decent AND VisualRating IS average THEN FilmQuality IS good;
 
 END_RULEBLOCK
 
