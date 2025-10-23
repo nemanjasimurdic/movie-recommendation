@@ -1,6 +1,9 @@
 package org.example.model;
 
-public class MovieDescription {
+import ucm.gaia.jcolibri.cbrcore.Attribute;
+import ucm.gaia.jcolibri.cbrcore.CaseComponent;
+
+public class MovieDescription implements CaseComponent {
     private String title;
     private String genre;
     private String director;
@@ -33,6 +36,9 @@ public class MovieDescription {
 
     public double getCultureRating() { return cultureRating; }
     public void setCultureRating(double cultureRating) { this.cultureRating = cultureRating; }
+
+    @Override
+    public Attribute getIdAttribute() { return null; } // ne koristim ID, pa moze ovako
 
     @Override
     public String toString() {
