@@ -8,6 +8,7 @@ import org.apache.jena.rdf.model.*;
 import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.vocabulary.RDF;
+import org.example.cbr.CaseBasedReasoner;
 
 public class Main {
 
@@ -29,11 +30,13 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         boolean running = true;
+        CaseBasedReasoner reasoner = new CaseBasedReasoner();
 
         while (running) {
             System.out.println("\n=== Movie Application Menu ===");
             System.out.println("1. Movie suggestions");
             System.out.println("2. Evaluate movie quality");
+            System.out.println("3. Find similar movies");
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
 
@@ -46,12 +49,15 @@ public class Main {
                 case "2":
                     evaluateMovieQuality(model, fis, sc);
                     break;
+                case "3":
+                    findSimilarMovies(model, reasoner, sc);
+                    break;
                 case "0":
                     running = false;
                     System.out.println("Exiting program...");
                     break;
                 default:
-                    System.out.println("Invalid choice! Please enter 0, 1, or 2.");
+                    System.out.println("Invalid choice! Please enter 0, 1, 2 or 3.");
             }
         }
 
@@ -151,6 +157,20 @@ public class Main {
 
         System.out.printf("Film quality score: %.2f (%s)%n", quality, qualityLabel);
     }
+
+    // === 🆕 Find Similar Movies Function ===
+    private static void findSimilarMovies(Model model, CaseBasedReasoner reasoner, Scanner sc) {
+        System.out.print("Enter movie title to find similar movies: ");
+        String titleInput = sc.nextLine().trim();
+
+        if (titleInput.isEmpty()) {
+            System.out.println("You must enter a movie title.");
+            return;
+        }
+
+        reasoner.findSimilarMovies(model, titleInput);
+    }
+
 
     // Helper method
     private static double getDoubleProperty(Resource res, Property prop) {
