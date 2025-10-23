@@ -8,7 +8,8 @@ import org.apache.jena.rdf.model.*;
 import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.vocabulary.RDF;
-import org.example.cbr.CaseBasedReasoner;
+import org.example.cbr.CbrMovieApplication;
+import ucm.gaia.jcolibri.exception.ExecutionException;
 
 public class Main {
 
@@ -30,7 +31,8 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         boolean running = true;
-        CaseBasedReasoner reasoner = new CaseBasedReasoner();
+        CbrMovieApplication cbrApp = new CbrMovieApplication();
+        cbrApp.loadCasesFromOntology(model);
 
         while (running) {
             System.out.println("\n=== Movie Application Menu ===");
@@ -50,7 +52,11 @@ public class Main {
                     evaluateMovieQuality(model, fis, sc);
                     break;
                 case "3":
-                    findSimilarMovies(model, reasoner, sc);
+                    try {
+                        findSimilarMovies(cbrApp, sc);
+                    } catch (ExecutionException e) {
+                        System.err.println("Error finding similar movies: " + e.getMessage());
+                    }
                     break;
                 case "0":
                     running = false;
@@ -159,7 +165,7 @@ public class Main {
     }
 
     // === 🆕 Find Similar Movies Function ===
-    private static void findSimilarMovies(Model model, CaseBasedReasoner reasoner, Scanner sc) {
+    private static void findSimilarMovies(CbrMovieApplication cbrApp, Scanner sc) throws ExecutionException {
         System.out.print("Enter movie title to find similar movies: ");
         String titleInput = sc.nextLine().trim();
 
@@ -168,7 +174,7 @@ public class Main {
             return;
         }
 
-        reasoner.findSimilarMovies(model, titleInput);
+        cbrApp.findSimilarMoviesByTitle(titleInput);
     }
 
 

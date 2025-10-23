@@ -13,6 +13,7 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Inception</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
         <hasDirector rdf:datatype="xsd:string">Christopher Nolan</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">9.2</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">9.0</hasActorsRating>
