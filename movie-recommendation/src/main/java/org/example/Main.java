@@ -14,14 +14,19 @@ import ucm.gaia.jcolibri.exception.ExecutionException;
 public class Main {
 
     public static void main(String[] args) {
-        // 1. Load ontology (classes + instances)
+        // Load ontology (classes + instances)
         Model model = ModelFactory.createDefaultModel();
         InputStream moviesStream = Main.class.getClassLoader().getResourceAsStream("movies.owl");
         InputStream instancesStream = Main.class.getClassLoader().getResourceAsStream("movies-instances.owl");
+
+        if (moviesStream == null || instancesStream == null) {
+            throw new IllegalStateException("Could not find one or both ontology files (movies.owl or movies-instances.owl) in resources.");
+        }
+
         RDFDataMgr.read(model, moviesStream, Lang.RDFXML);
         RDFDataMgr.read(model, instancesStream, Lang.RDFXML);
 
-        // 2. Load Fuzzy system
+        // Load Fuzzy system
         InputStream fisStream = Main.class.getClassLoader().getResourceAsStream("film.fcl");
         FIS fis = FIS.load(fisStream, true);
         if (fis == null) {
@@ -70,7 +75,7 @@ public class Main {
         sc.close();
     }
 
-    // === Movie Suggestions Function ===
+    // Movie Suggestions Function
     private static void movieSuggestions(Model model, Scanner sc) {
         System.out.print("Enter movie title (or press Enter for all): ");
         String titleInput = sc.nextLine().trim();
@@ -79,22 +84,7 @@ public class Main {
         System.out.print("Enter director (or press Enter for all): ");
         String directorInput = sc.nextLine().trim();
 
-        StringBuilder queryBuilder = new StringBuilder();
-        queryBuilder.append("PREFIX mov: <http://www.example.org/movies#> ");
-        queryBuilder.append("SELECT ?film ?title ?genre ?director WHERE { ");
-        queryBuilder.append("?film a mov:Film ; mov:hasTitle ?title ; mov:hasGenre ?genre ; mov:hasDirector ?director . ");
-
-        if (!titleInput.isEmpty()) {
-            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?title)), \"" + titleInput.toLowerCase() + "\")) ");
-        }
-        if (!genreInput.isEmpty()) {
-            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?genre)), \"" + genreInput.toLowerCase() + "\")) ");
-        }
-        if (!directorInput.isEmpty()) {
-            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?director)), \"" + directorInput.toLowerCase() + "\")) ");
-        }
-
-        queryBuilder.append("} LIMIT 10");
+        StringBuilder queryBuilder = getStringBuilder(titleInput, genreInput, directorInput);
 
         try {
             org.apache.jena.query.Query query = org.apache.jena.query.QueryFactory.create(queryBuilder.toString());
@@ -117,7 +107,27 @@ public class Main {
         }
     }
 
-    // === Evaluate Movie Quality Function ===
+    private static StringBuilder getStringBuilder(String titleInput, String genreInput, String directorInput) {
+        StringBuilder queryBuilder = new StringBuilder();
+        queryBuilder.append("PREFIX mov: <http://www.example.org/movies#> ");
+        queryBuilder.append("SELECT ?film ?title ?genre ?director WHERE { ");
+        queryBuilder.append("?film a mov:Film ; mov:hasTitle ?title ; mov:hasGenre ?genre ; mov:hasDirector ?director . ");
+
+        if (!titleInput.isEmpty()) {
+            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?title)), \"").append(titleInput.toLowerCase()).append("\")) ");
+        }
+        if (!genreInput.isEmpty()) {
+            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?genre)), \"").append(genreInput.toLowerCase()).append("\")) ");
+        }
+        if (!directorInput.isEmpty()) {
+            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?director)), \"").append(directorInput.toLowerCase()).append("\")) ");
+        }
+
+        queryBuilder.append("} LIMIT 10");
+        return queryBuilder;
+    }
+
+    // Evaluate Movie Quality Function
     private static void evaluateMovieQuality(Model model, FIS fis, Scanner sc) {
         System.out.print("Enter movie title to evaluate: ");
         String titleInput = sc.nextLine().trim();
@@ -164,7 +174,7 @@ public class Main {
         System.out.printf("Film quality score: %.2f (%s)%n", quality, qualityLabel);
     }
 
-    // === 🆕 Find Similar Movies Function ===
+    // Find Similar Movies Function
     private static void findSimilarMovies(CbrMovieApplication cbrApp, Scanner sc) throws ExecutionException {
         System.out.print("Enter movie title to find similar movies: ");
         String titleInput = sc.nextLine().trim();
