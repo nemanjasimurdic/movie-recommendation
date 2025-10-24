@@ -14,6 +14,7 @@
         <hasTitle rdf:datatype="xsd:string">Inception</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
         <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Christopher Nolan</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">9.2</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">9.0</hasActorsRating>
@@ -26,6 +27,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Interstellar</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Teen</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Christopher Nolan</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">6.5</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">6.8</hasActorsRating>
@@ -38,6 +41,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">The Godfather</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Crime</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Francis Ford Coppola</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">9.7</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">9.5</hasActorsRating>
@@ -50,6 +55,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Pulp Fiction</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Crime</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Quentin Tarantino</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">5.5</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">6.0</hasActorsRating>
@@ -62,6 +69,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">The Shining</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Stanley Kubrick</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">8.8</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">8.5</hasActorsRating>
@@ -74,6 +83,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Get Out</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Jordan Peele</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">3.5</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">3.8</hasActorsRating>
@@ -86,6 +97,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Parasite</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Korean</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Bong Joon-ho</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">9.3</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">9.1</hasActorsRating>
@@ -98,6 +111,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Joker</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Todd Phillips</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">6.2</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">6.0</hasActorsRating>
@@ -110,6 +125,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">La La Land</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Romance</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Teen</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Damien Chazelle</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">7.0</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">6.8</hasActorsRating>
@@ -122,6 +139,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">The Dark Knight</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Teen</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Christopher Nolan</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">9.0</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">9.2</hasActorsRating>
@@ -134,6 +153,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Avengers: Endgame</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Anthony and Joe Russo</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">6.5</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">6.8</hasActorsRating>
@@ -146,6 +167,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Titanic</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Romance</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Teen</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">James Cameron</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">8.0</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">8.3</hasActorsRating>
@@ -158,6 +181,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Forrest Gump</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Robert Zemeckis</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">9.1</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">9.0</hasActorsRating>
@@ -170,6 +195,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Mad Max: Fury Road</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">George Miller</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">7.2</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">7.5</hasActorsRating>
@@ -182,6 +209,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">The Matrix</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Lana and Lilly Wachowski</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">9.0</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">8.8</hasActorsRating>
@@ -194,6 +223,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Django Unchained</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Western</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Quentin Tarantino</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">5.8</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">6.0</hasActorsRating>
@@ -206,6 +237,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Whiplash</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Damien Chazelle</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">8.5</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">8.3</hasActorsRating>
@@ -218,6 +251,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">A Quiet Place</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">John Krasinski</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">3.5</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">3.8</hasActorsRating>
@@ -230,6 +265,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Blade Runner 2049</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Denis Villeneuve</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">8.8</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">8.7</hasActorsRating>
@@ -242,6 +279,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">The Social Network</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Teen</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">David Fincher</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">8.5</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">8.3</hasActorsRating>
@@ -254,6 +293,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">It</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Andy Muschietti</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">6.0</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">6.2</hasActorsRating>
@@ -266,6 +307,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Black Panther</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Ryan Coogler</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">8.0</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">8.2</hasActorsRating>
@@ -278,6 +321,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">The Irishman</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Crime</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Martin Scorsese</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">7.0</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">6.8</hasActorsRating>
@@ -290,6 +335,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Knives Out</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Teen</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Rian Johnson</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">8.3</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">8.1</hasActorsRating>
@@ -302,6 +349,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Jumanji: Welcome to the Jungle</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Adventure</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Jake Kasdan</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">5.5</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">5.8</hasActorsRating>
@@ -314,6 +363,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Frozen II</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Chris Buck and Jennifer Lee</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">7.8</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">7.7</hasActorsRating>
@@ -326,6 +377,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Coco</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Lee Unkrich</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">9.0</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">8.8</hasActorsRating>
@@ -338,6 +391,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Tenet</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Teen</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Christopher Nolan</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">8.5</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">8.3</hasActorsRating>
@@ -350,6 +405,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">The Wolf of Wall Street</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Martin Scorsese</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">7.5</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">7.3</hasActorsRating>
@@ -362,6 +419,8 @@
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Avatar: The Way of Water</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">James Cameron</hasDirector>
         <hasDirectorRating rdf:datatype="xsd:double">8.2</hasDirectorRating>
         <hasActorsRating rdf:datatype="xsd:double">8.1</hasActorsRating>
@@ -370,299 +429,537 @@
         <hasCultureRating rdf:datatype="xsd:double">8.2</hasCultureRating>
     </owl:NamedIndividual>
 
-    <owl:NamedIndividual rdf:about="#TheBatman">
+    <owl:NamedIndividual rdf:about="#TheIntouchables">
         <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Batman</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Matt Reeves</hasDirector>
+        <hasTitle rdf:datatype="xsd:string">The Intouchables</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">French</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Olivier Nakache</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.7</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">9.2</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.8</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.2</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.5</hasCultureRating>
     </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Roma">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Roma</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Spanish</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Alfonso Cuarón</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.5</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.3</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.8</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">9.0</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">9.1</hasCultureRating>
+    </owl:NamedIndividual>
+
     <owl:NamedIndividual rdf:about="#EverythingEverywhereAllAtOnce">
         <rdf:type rdf:resource="#Film"/>
         <hasTitle rdf:datatype="xsd:string">Everything Everywhere All At Once</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Daniel Kwan and Daniel Scheinert</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TopGunMaverick">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Top Gun: Maverick</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Joseph Kosinski</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#KnockAtTheCabin">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Knock at the Cabin</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">M. Night Shyamalan</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Oppenheimer">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Oppenheimer</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Christopher Nolan</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Barbie">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Barbie</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Greta Gerwig</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#GuardiansOfTheGalaxyVol3">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Guardians of the Galaxy Vol. 3</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">James Gunn</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#SpiderManNoWayHome">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Spider-Man: No Way Home</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Jon Watts</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheFabelmans">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Fabelmans</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Steven Spielberg</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Nope">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Nope</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Jordan Peele</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheMarvels">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Marvels</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Nia DaCosta</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#DunePartTwo">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Dune: Part Two</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Science Fiction</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Denis Villeneuve</hasDirector>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Teen</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Daniel Kwan</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.9</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">9.0</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.8</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">9.1</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.9</hasCultureRating>
     </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheLittleMermaid">
+
+    <owl:NamedIndividual rdf:about="#TheHatefulEight">
         <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Little Mermaid</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Fantasy</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Rob Marshall</hasDirector>
+        <hasTitle rdf:datatype="xsd:string">The Hateful Eight</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Western</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">English</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Quentin Tarantino</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.2</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.5</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.0</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.7</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.3</hasCultureRating>
     </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Barbie">
+
+    <owl:NamedIndividual rdf:about="#CallMeByYourName">
         <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Barbie</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Greta Gerwig</hasDirector>
+        <hasTitle rdf:datatype="xsd:string">Call Me by Your Name</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Romance</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Italian</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Luca Guadagnino</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.4</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.9</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.3</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.6</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.8</hasCultureRating>
     </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#CreedIII">
+
+    <owl:NamedIndividual rdf:about="#Amelie">
         <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Creed III</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Michael B. Jordan</hasDirector>
+        <hasTitle rdf:datatype="xsd:string">Amélie</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Romance</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">French</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Jean-Pierre Jeunet</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.4</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.7</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.5</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.9</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.6</hasCultureRating>
     </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Wonka">
+
+    <owl:NamedIndividual rdf:about="#CityOfGod">
         <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Wonka</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Adventure</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Paul King</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#HauntedMansion">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Haunted Mansion</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Justin Simien</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#FastX">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Fast X</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Louis Leterrier</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#GuardiansOfTheGalaxyVol3">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Guardians of the Galaxy Vol. 3</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">James Gunn</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Elemental">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Elemental</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Peter Sohn</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#SpiderManAcrossTheSpiderVerse">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Spider-Man: Across the Spider-Verse</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Joaquim Dos Santos, Kemp Powers, Justin K. Thompson</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#PussInBootsTheLastWish">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Puss in Boots: The Last Wish</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Joel Crawford</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheSuperMarioMovie">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Super Mario Movie</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Aaron Horvath and Michael Jelenic</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#KillersOfTheFlowerMoon">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Killers of the Flower Moon</hasTitle>
+        <hasTitle rdf:datatype="xsd:string">City of God</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Crime</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Martin Scorsese</hasDirector>
+        <hasLanguage rdf:datatype="xsd:string">Portuguese</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Fernando Meirelles</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">9.0</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.8</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">9.1</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.5</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.9</hasCultureRating>
     </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheHoldovers">
+
+    <owl:NamedIndividual rdf:about="#PanSLabyrinth">
         <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Holdovers</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Alexander Payne</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Napoleon">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Napoleon</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Ridley Scott</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Barbarian">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Barbarian</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Zach Cregger</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheZoneOfInterest">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Zone of Interest</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Jonathan Glazer</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Sharper">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Sharper</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Benjamin Caron</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheNightHouse">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Night House</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">David Bruckner</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#KnockAtTheCabin">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Knock at the Cabin</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">M. Night Shyamalan</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheMenu">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Menu</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Mark Mylod</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Air">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Air</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Ben Affleck</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Sharper">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Sharper</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Benjamin Caron</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Memory">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Memory</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Martin Campbell</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#BeauIsAfraid">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Beau Is Afraid</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Ari Aster</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#ThePuzzle">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Puzzle</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Patricia Highsmith</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheEqualizer3">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Equalizer 3</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Antoine Fuqua</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheWager">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Wager</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Peter Markle</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Sleep">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Sleep</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Jason Yu</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#InTheSameBoat">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">In the Same Boat</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Stuart Acher</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#NightmareAlley">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Nightmare Alley</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
+        <hasTitle rdf:datatype="xsd:string">Pan’s Labyrinth</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Fantasy</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Spanish</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
         <hasDirector rdf:datatype="xsd:string">Guillermo del Toro</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.7</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.5</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.9</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">9.0</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.8</hasCultureRating>
     </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Sharper">
+
+    <owl:NamedIndividual rdf:about="#CinemaParadiso">
         <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Sharper</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Benjamin Caron</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#AllTheBeautyAndTheBloodshed">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">All the Beauty and the Bloodshed</hasTitle>
+        <hasTitle rdf:datatype="xsd:string">Cinema Paradiso</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Laura Poitras</hasDirector>
+        <hasLanguage rdf:datatype="xsd:string">Italian</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Giuseppe Tornatore</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.6</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.8</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.7</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.5</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">9.2</hasCultureRating>
     </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheGoodNurse">
+
+    <owl:NamedIndividual rdf:about="#SpiritedAway">
         <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Good Nurse</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Tobias Lindholm</hasDirector>
+        <hasTitle rdf:datatype="xsd:string">Spirited Away</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Animation</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Japanese</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Hayao Miyazaki</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">9.1</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.4</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">9.0</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">9.3</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">9.4</hasCultureRating>
     </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#Sharper">
+
+    <owl:NamedIndividual rdf:about="#TheLivesOfOthers">
         <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">Sharper</hasTitle>
-        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Benjamin Caron</hasDirector>
-    </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#TheBansheesOfInisherin">
-        <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">The Banshees of Inisherin</hasTitle>
+        <hasTitle rdf:datatype="xsd:string">The Lives of Others</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Martin McDonagh</hasDirector>
+        <hasLanguage rdf:datatype="xsd:string">German</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Florian Henckel von Donnersmarck</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.9</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.8</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">9.0</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.4</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.8</hasCultureRating>
     </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#SheWill">
+
+    <owl:NamedIndividual rdf:about="#Rashomon">
         <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">She Will</hasTitle>
+        <hasTitle rdf:datatype="xsd:string">Rashomon</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Charlotte Colbert</hasDirector>
+        <hasLanguage rdf:datatype="xsd:string">Japanese</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Akira Kurosawa</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">9.0</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.7</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">9.1</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.6</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">9.3</hasCultureRating>
     </owl:NamedIndividual>
-    <owl:NamedIndividual rdf:about="#AllTheOldKnives">
+
+    <owl:NamedIndividual rdf:about="#RunLolaRun">
         <rdf:type rdf:resource="#Film"/>
-        <hasTitle rdf:datatype="xsd:string">All the Old Knives</hasTitle>
+        <hasTitle rdf:datatype="xsd:string">Run Lola Run</hasTitle>
         <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
-        <hasDirector rdf:datatype="xsd:string">Janus Metz</hasDirector>
+        <hasLanguage rdf:datatype="xsd:string">German</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Teen</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Tom Tykwer</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.2</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.0</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.4</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.7</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.1</hasCultureRating>
     </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Oldboy">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Oldboy</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Korean</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Park Chan-wook</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.9</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.8</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">9.0</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.7</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.5</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Incendies">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Incendies</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Arabic</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Denis Villeneuve</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.8</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.6</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">9.0</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.5</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">9.1</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#CrouchingTigerHiddenDragon">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Crouching Tiger, Hidden Dragon</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Action</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Mandarin</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Ang Lee</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.4</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.3</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.5</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">9.2</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">9.0</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#LifeIsBeautiful">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Life Is Beautiful</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Italian</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Roberto Benigni</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.9</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">9.1</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">9.0</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.3</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">9.3</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Parasite2">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Parasite 2</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Korean</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Bong Joon-ho</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.9</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">9.0</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.7</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.8</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.6</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#AllAboutMyMother">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">All About My Mother</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Spanish</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Pedro Almodóvar</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.4</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.7</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.6</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.2</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.8</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#TheHunt">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Hunt</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Danish</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Thomas Vinterberg</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.9</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">9.2</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">9.0</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.3</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.7</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#InTheMoodForLove">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">In the Mood for Love</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Romance</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Cantonese</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Wong Kar-wai</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">9.0</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.8</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.7</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">9.3</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">9.0</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#LaVitaÈBella">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">La Vita è Bella</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Italian</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Roberto Benigni</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">9.0</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">9.3</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">9.4</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.1</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">9.0</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#DasLebenDerAnderen">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Das Leben der Anderen</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">German</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Florian Henckel von Donnersmarck</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.8</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.7</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.9</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.2</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.6</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#ElSecretoDeSusOjos">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">El Secreto de Sus Ojos</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Mystery</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Spanish</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Juan José Campanella</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.7</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.8</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.9</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.0</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.7</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Intouchables">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Intouchables</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">French</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">General</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Olivier Nakache and Éric Toledano</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.6</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">9.0</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.8</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.2</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.4</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#TheHandmaiden">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Handmaiden</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Thriller</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Korean</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Park Chan-wook</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.6</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.7</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.9</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">9.0</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.8</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#ColdWar">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Cold War</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Romance</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Polish</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Paweł Pawlikowski</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.3</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.4</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.2</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.8</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.5</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#PainAndGlory">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Pain and Glory</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Spanish</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Pedro Almodóvar</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.0</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.2</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.1</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.3</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.2</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#ToniErdmann">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Toni Erdmann</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Comedy</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">German</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Maren Ade</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.1</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.0</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.2</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">7.8</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.0</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#TheGreatBeauty">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Great Beauty</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Italian</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Paolo Sorrentino</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.5</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.3</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.6</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">9.0</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.9</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Shoplifters">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Shoplifters</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Japanese</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Hirokazu Kore-eda</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.3</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.2</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.5</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.1</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.4</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#ASeparation">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">A Separation</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Persian</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Asghar Farhadi</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.7</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.6</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.9</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.2</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.5</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#TheSalesman">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Salesman</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">French</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Asghar Farhadi</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.2</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.1</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.3</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.0</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.2</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#MemoriesOfMurder">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Memories of Murder</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Crime</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Korean</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Bong Joon-ho</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.6</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.5</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.8</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.3</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.6</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#LikeFatherLikeSon">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Like Father, Like Son</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Japanese</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Teen</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Hirokazu Kore-eda</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.2</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.1</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.3</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.0</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.2</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#TheWailing">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">The Wailing</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Horror</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Korean</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Na Hong-jin</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.0</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.2</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.3</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">8.1</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.2</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#AFantasticWoman">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">A Fantastic Woman</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Spanish</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Adult</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Sebastián Lelio</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.0</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">8.1</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.2</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">7.9</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.0</hasCultureRating>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#Wadjda">
+        <rdf:type rdf:resource="#Film"/>
+        <hasTitle rdf:datatype="xsd:string">Wadjda</hasTitle>
+        <hasGenre rdf:datatype="xsd:string">Drama</hasGenre>
+        <hasLanguage rdf:datatype="xsd:string">Arabic</hasLanguage>
+        <hasAudienceType rdf:datatype="xsd:string">Teen</hasAudienceType>
+        <hasDirector rdf:datatype="xsd:string">Haifaa al-Mansour</hasDirector>
+        <hasDirectorRating rdf:datatype="xsd:double">8.0</hasDirectorRating>
+        <hasActorsRating rdf:datatype="xsd:double">7.9</hasActorsRating>
+        <hasStoryRating rdf:datatype="xsd:double">8.1</hasStoryRating>
+        <hasVisualRating rdf:datatype="xsd:double">7.8</hasVisualRating>
+        <hasCultureRating rdf:datatype="xsd:double">8.0</hasCultureRating>
+    </owl:NamedIndividual>
+
 
 </rdf:RDF>

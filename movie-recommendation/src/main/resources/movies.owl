@@ -66,6 +66,7 @@
     <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasProducer"/>
     <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasScore"/>
     <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasLanguage"/>
+    <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasAudienceType"/>
     <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasCountry"/>
     <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasDuration"/>
     <owl:ObjectProperty rdf:about="http://www.example.org/movies#hasYear"/>

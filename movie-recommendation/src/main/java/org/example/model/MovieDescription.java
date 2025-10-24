@@ -7,6 +7,8 @@ public class MovieDescription implements CaseComponent {
     private String title;
     private String genre;
     private String director;
+    private String language;
+    private String audienceType;
     private double directorRating;
     private double actorsRating;
     private double storyRating;
@@ -18,6 +20,12 @@ public class MovieDescription implements CaseComponent {
 
     public String getGenre() { return genre; }
     public void setGenre(String genre) { this.genre = genre; }
+
+    public String getLanguage() { return language; }
+    public void setLanguage(String language) { this.language = language; }
+
+    public String getAudienceType() { return audienceType; }
+    public void setAudienceType(String audienceType) { this.audienceType = audienceType; }
 
     public String getDirector() { return director; }
     public void setDirector(String director) { this.director = director; }
@@ -45,6 +53,8 @@ public class MovieDescription implements CaseComponent {
         return "Title: " + title +
                 "\nGenre: " + genre +
                 "\nDirector: " + director +
+                "\nLanguage: " + language +
+                "\nAudienceType: " + audienceType +
                 "\nDirectorRating: " + directorRating +
                 "\nActorsRating: " + actorsRating +
                 "\nStoryRating: " + storyRating +
