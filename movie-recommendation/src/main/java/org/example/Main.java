@@ -86,6 +86,7 @@ public class Main {
 
         StringBuilder queryBuilder = getStringBuilder(titleInput, genreInput, directorInput);
 
+        // Executes SPARQL query
         try {
             org.apache.jena.query.Query query = org.apache.jena.query.QueryFactory.create(queryBuilder.toString());
             try (org.apache.jena.query.QueryExecution qexec = org.apache.jena.query.QueryExecutionFactory.create(query, model)) {
@@ -107,6 +108,7 @@ public class Main {
         }
     }
 
+    // Builds a SPARQL query
     private static StringBuilder getStringBuilder(String titleInput, String genreInput, String directorInput) {
         StringBuilder queryBuilder = new StringBuilder();
         queryBuilder.append("PREFIX mov: <http://www.example.org/movies#> ");
@@ -114,13 +116,19 @@ public class Main {
         queryBuilder.append("?film a mov:Film ; mov:hasTitle ?title ; mov:hasGenre ?genre ; mov:hasDirector ?director . ");
 
         if (!titleInput.isEmpty()) {
-            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?title)), \"").append(titleInput.toLowerCase()).append("\")) ");
+            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?title)), \"")
+                        .append(titleInput.toLowerCase())
+                        .append("\")) ");
         }
         if (!genreInput.isEmpty()) {
-            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?genre)), \"").append(genreInput.toLowerCase()).append("\")) ");
+            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?genre)), \"")
+                        .append(genreInput.toLowerCase())
+                        .append("\")) ");
         }
         if (!directorInput.isEmpty()) {
-            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?director)), \"").append(directorInput.toLowerCase()).append("\")) ");
+            queryBuilder.append("FILTER(CONTAINS(LCASE(str(?director)), \"")
+                        .append(directorInput.toLowerCase())
+                        .append("\")) ");
         }
 
         queryBuilder.append("} LIMIT 10");
