@@ -22,7 +22,7 @@ public class CbrMovieApplication implements StandardCBRApplication {
         configureSimilarity();
     }
 
-    /** Similarity configuration */
+    // Similarity configuration
     private void configureSimilarity() {
         NNConfig simConfig = new NNConfig();
         simConfig.setDescriptionSimFunction(new Average());
@@ -34,7 +34,7 @@ public class CbrMovieApplication implements StandardCBRApplication {
         simConfig.addMapping(new Attribute("cultureRating", MovieDescription.class), new Interval(1));
     }
 
-    /** Loading cases from OWL */
+    // Loading cases from OWL
     public void loadCasesFromOntology(Model model) {
         Property titleProp = model.getProperty("http://www.example.org/movies#hasTitle");
         Property genreProp = model.getProperty("http://www.example.org/movies#hasGenre");
@@ -69,7 +69,7 @@ public class CbrMovieApplication implements StandardCBRApplication {
         }
     }
 
-    /** Finding similar movies */
+    // Finding similar movies
     public void findSimilarMoviesByTitle(String title) {
         MovieDescription queryMovie = null;
 
